@@ -1,0 +1,83 @@
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    background-color: ghostwhite;
+    display: flex;
+}
+
+.image-container {
+    height: 100vh;
+    width: 50%;
+    background-color: none;
+}
+
+.image-container img {
+    position: absolute;
+    z-index: 1;
+    height: 80vh;
+    width: auto;
+    margin: 15vh 0px 0px 8vw;
+}
+
+.grey-circle-fill {
+    z-index: 0;
+    position: absolute;
+    top: 35vh;
+    right: 8vw;
+    height: 500px;
+    width: 500px;
+    border-radius: 200vw;
+    background-color: rgb(221, 221, 230);
+}
+
+.text-container {
+    height: 100vh;
+    width: 50%;
+    background-color: none;
+}
+
+.text-container h1 {
+    margin: 20vh 0px 0px 5vw;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 800;
+    font-size: 7rem;  
+}
+
+.text-container li {
+    margin: 3vh 0px 4vh 5vw;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    padding: 0px;
+}
+.text-container li span {
+    position: relative;
+    left: -10px;
+}
+
+.text-container p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 2vh 2vw 0px 5vw;
+}
+
+.text-container-btn {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    margin: 4vh 2vw 0px 5vw;
+}
+
+.text-container-btn h3 {
+    font-weight: 300;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.text-container-btn h3:nth-child(1) {
+    color: white;
+    background-color: black;
+}

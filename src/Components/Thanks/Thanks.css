@@ -1,0 +1,23 @@
+.thanks-container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+.thanks-container h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 800;
+    font-size: 13rem;
+    line-height: 12rem;
+    padding: 150px 0px 0px 50px;
+    color: rgb(200, 200, 200);
+}
+
+.thanks-container h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    padding-left: 50px;
+    color: #000;
+}
+
